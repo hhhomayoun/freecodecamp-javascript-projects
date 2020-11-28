@@ -5,7 +5,7 @@ function palindrome(str) {
  let arr2 = []
  // looping through the string and converting it's charecters to ascii code decimals
  for (let index = 0; index < str.length; index++) {
-  // only pushing the alphanumerical charactors to arr1
+  // only pushing the alphanumerical characters to arr1
   if ((str.charCodeAt(index) >= 48 && str.charCodeAt(index) <= 57) || (str.charCodeAt(index) >= 97 && str.charCodeAt(index) <= 122)) {
    arr1.push(str.charCodeAt(index))
   }
